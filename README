@@ -1,0 +1,96 @@
+Project Orthos - Greek Spell checking
+=========================================================================================================
+This is a Greek spell checking project based primarily on Hunspell that provides 
+the dictionaries and creates LibreOffice extensions.
+ 
+This was started as a fork of the LibreGreek GIT project at 
+https://github.com/squibbylinux/LibreGreek. Read the README files there to find 
+out more about the background of the project and the origin of its parts.
+
+It is embarrasing that the Greek language support (spell checkers etc) have made 
+so little progress in many years.
+LibreGreek was at the time I got it the latest project and had most of the pieces 
+required. In my search I found that it included the latest Greek language support 
+files. Nontheless it was almost 3 years old and not maintained.
+
+The objectives here are:
+1. to *further* develop the Greek support for Hunspell in a more systematic way.
+2. to collect the best support material for the Greek language that the Greek 
+   FOSS community has produced so far for Libre Office into a single project 
+   and make it easier to find and maintain
+3. to maintain a, hopefully, standard Greek wordlist similar to the efforts made
+   by other projects
+4. to enhance the Greek dictionary with aff rules to make it easier to maintain
+5. to eventually incorparate Grammar rules and grammar checking
+6. to develop/enhance a Greek thesaurus
+7. To influence software development to incorporate features that suit the Greek 
+   language
+
+This is not hosted anywhere currently. To contact me send email to andreas@kasenides.org
+See also the README.Changes files.
+===============================================================================
+
+To install in LibreOffice
+----------------------
+The only file you need is orthosgreek-<version>.oxt
+Install by using the Extensions manager
+
+===============================================================================
+
+To recreate the LibreOffice dictionaries
+-----------------------------------------
+If you make changes to the dictionaries you can recreate the LibreOffice 
+extensions by doing:
+
+> make clean
+> make all
+
+If successful the procedure will clean and then recreate two files that can be 
+installed by the extensions manager of LibreOffice:
+
+1. orthosgreek-el_GR-<ver>.oxt
+2. orthosgreek-el_GR-en_US-<ver>.oxt
+
+The first one is a purely Greek dictionary.
+The second one is a combination of Greek/English dictionary.
+
+Versions markes with a Greek α should be considered experimental.
+
+Note: That there are some parts in the file structure that are not currently 
+used and can be ingored.
+================================================================================
+DICTIONARIES
+
+Greek Dictionary
+--------------------
+There are currently 828806 word in the dictionary but these include entries for
+all the forms of the same word as produced by the Greek grammar rules. For exammple
+the following are entered individually as different words:  ζητώ, ζητάς ... ζήτησα 
+κλπ. κλπ. αναζητώ, αναζητάς κλπ κλπ. This approach is necesary to have a working 
+dictionary at this stage. It is expected that this number will shrink considerably 
+when a proper aff file is composed.
+
+
+English Dictionaries
+--------------------
+The English dictionaries come from http://wordlist.aspell.net/.
+Currently I only use American English dictionaries (en_US).
+
+================================================================================
+
+How you can help
+--------------------
+By far the most time consumiung activity is to maintain a proper word list to 
+be used by the dictionary. A word that is nto in the dictionary cannot be spelled
+checked. Please submit a bug report with any words you find we are missing.
+
+Also anyone with professional language skills can prove invaluable for this project.
+
+================================================================================
+
+See also. 
+A list of important previous work for Greek spelling and related material
+-------------------------------------------------------------------------
+1. http://hunspell.github.io/
+
+

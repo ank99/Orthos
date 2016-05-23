@@ -1,0 +1,212 @@
+SET UTF-8
+TRY 'ABCDEFGHIKLMNOPRSTUVWYZabcdefghiklmnoprstuvwyzΆΈΉΊΌΎΏΐάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ
+FLAG NUMBER
+
+PFX 1 Y 1
+PFX 1   0     α         .       # βάσιμος > αβάσιμος
+
+PFX 2 Y 1
+PFX 2   0     re         .
+
+PFX 3 Y 1
+PFX 3   0     ξανα      .       # ζητώ > ξαναζητώ
+
+PFX 4 Y 1
+PFX 4   0     απο       .       # σύνθεση > αποσύνθεση
+
+PFX 5 Y 1
+PFX 5   0     de          .
+
+PFX 6 Y 1
+PFX 6   0     κατα      .       # στροφή > καταστροφή
+
+PFX 7 Y 1
+PFX 7   0     παρα      .       # βλέπω > παραβλέπω
+
+PFX 8 Y 1
+PFX 8   0     dis         .
+
+PFX 9 Y 1
+PFX 9   0     con         .
+
+PFX 10 Y 1
+PFX 10   0     in         .
+
+PFX 11 Y 1
+PFX 11   0     pro         .
+
+PFX 12 Y 1
+PFX 12   0     un         .
+
+REP 88
+REP a ei
+REP ei a
+REP a ey
+REP ey a
+REP ai ie
+REP ie ai
+REP are air
+REP are ear
+REP are eir
+REP air are
+REP air ere
+REP ere air
+REP ere ear
+REP ere eir
+REP ear are
+REP ear air
+REP ear ere
+REP eir are
+REP eir ere
+REP ch te
+REP te ch
+REP ch ti
+REP ti ch
+REP ch tu
+REP tu ch
+REP ch s
+REP s ch
+REP ch k
+REP k ch
+REP f ph
+REP ph f
+REP gh f
+REP f gh
+REP i igh
+REP igh i
+REP i uy
+REP uy i
+REP i ee
+REP ee i
+REP j di
+REP di j
+REP j gg
+REP gg j
+REP j ge
+REP ge j
+REP s ti
+REP ti s
+REP s ci
+REP ci s
+REP k cc
+REP cc k
+REP k qu
+REP qu k
+REP kw qu
+REP o eau
+REP eau o
+REP o ew
+REP ew o
+REP oo ew
+REP ew oo
+REP ew ui
+REP ui ew
+REP oo ui
+REP ui oo
+REP ew u
+REP u ew
+REP oo u
+REP u oo
+REP u oe
+REP oe u
+REP u ieu
+REP ieu u
+REP ue ew
+REP ew ue
+REP uff ough
+REP oo ieu
+REP ieu oo
+REP ier ear
+REP ear ier
+REP ear air
+REP air ear
+REP w qu
+REP qu w
+REP z ss
+REP ss z
+REP shun tion
+REP shun sion
+REP shun cion
+
+SFX 13 Y 3
+SFX 13   0     able       [^aeiou]
+SFX 13   0     able       ee
+SFX 13   e     able       [^aeiou]e
+
+SFX 14 Y 4
+SFX 14   0     d          e
+SFX 14   y     ied        [^aeiou]y
+SFX 14   0     ed         [^ey]
+SFX 14   0     ed         [aeiou]y
+
+SFX 15 Y 2
+SFX 15   e     ing        e
+SFX 15   0     ing        [^e]
+
+SFX 16 N 2
+SFX 16   y     ieth       y
+SFX 16   0     th         [^y]
+
+SFX 17 Y 2
+SFX 17   e     ings       e
+SFX 17   0     ings       [^e]
+
+SFX 18 Y 1
+SFX 18   0     ment       .
+
+SFX 19 Y 1
+SFX 19   0     's         .
+
+SFX 20 Y 3
+SFX 20   e     ion        e
+SFX 20   y     ication    y
+SFX 20   0     en         [^ey]
+
+SFX 21 Y 3
+SFX 21   y     iness      [^aeiou]y
+SFX 21   0     ness       [aeiou]y
+SFX 21   0     ness       [^y]
+
+SFX 22 Y 4
+SFX 22   0     r          e
+SFX 22   y     ier        [^aeiou]y
+SFX 22   0     er         [aeiou]y
+SFX 22   0     er         [^ey]
+
+SFX 23 Y 4
+SFX 23   y     ies        [^aeiou]y
+SFX 23   0     s          [aeiou]y
+SFX 23   0     es         [sxzh]
+SFX 23   0     s          [^sxzhy]
+
+SFX 24 N 4
+SFX 24   0     st         e
+SFX 24   y     iest       [^aeiou]y
+SFX 24   0     est        [aeiou]y
+SFX 24   0     est        [^ey]
+
+SFX 25 N 2
+SFX 25   e     ive        e
+SFX 25   0     ive        [^e]
+
+SFX 26 Y 3
+SFX 26   e     ions       e
+SFX 26   y     ications   y
+SFX 26   0     ens        [^ey]
+
+SFX 27 Y 1
+SFX 27   0     ly         .
+
+SFX 28 Y 4
+SFX 28   0     rs         e
+SFX 28   y     iers       [^aeiou]y
+SFX 28   0     ers        [aeiou]y
+SFX 28   0     ers        [^ey]
+
+SFX 29 Y 5
+SFX 29 ώ     άς         .    # αγαπώ > αγαπάς
+SFX 29 ώ     ά          .    # αγαπώ > αγαπά
+SFX 29 ώ     ούμε       .    # αγαπώ > αγαπάς
+SFX 29 ώ     άτε        .    # αγαπώ > αγαπάς
+SFX 29 ώ     ούν        .    # αγαπώ > αγαπάς
+
