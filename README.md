@@ -1,2 +1,2 @@
 # Orthos
-Greek dictionaries and thesaurus for Hunspell (OpenOffice, LibreGreek) 
+1. Greek dictionaries and thesaurus for Hunspell (OpenOffice, LibreGreek) 
