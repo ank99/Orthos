@@ -29,9 +29,10 @@ Version 0.1.α - Initial try - note this is an alpha version
 	- el_GR-en_US/ for the merged el_GR and en_US dictionaries to produce a Greek/English dictionary
 	- old/ some initial files placed here - just in case
 ----------------------------------------------------------------------------------------------------------
-11/05/2016
+24/05/2016
 -------------------------------------------------------------------------------
 Version 0.2.α 
 
 - changes in README files for better reading
 - changes in the el_GR.aff for better suggestions (KEY and REP entries)
+- added a Greek thesaurus from openthesaurus.gr. This is still alpha work. 
