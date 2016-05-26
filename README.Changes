@@ -1,6 +1,7 @@
 Project Orthos
 =========================================================================================================
-This was started as a fork of the LibreGreek GIT project. See https://github.com/squibbylinux/LibreGreek.
+This was started as a fork of the LibreGreek GIT project. 
+See https://github.com/squibbylinux/LibreGreek.
 The changes recorded below are changes on the project above as a base.
 ---------------------------------------------------------------------------------------------------------
 19/05/2015
@@ -35,4 +36,4 @@ Version 0.2.α
 
 - changes in README files for better reading
 - changes in the el_GR.aff for better suggestions (KEY and REP entries)
-- added a Greek thesaurus from openthesaurus.gr. This is still alpha work. 
+- added a Greek thesaurus from openthesaurus.gr under directory thesaurus/. This still in alpha. 
