@@ -1,7 +1,13 @@
 Project Orthos - Greek Spell checking
 =========================================================================================================
-This is a Greek spell checking project based primarily on Hunspell that provides 
-the dictionaries and creates LibreOffice extensions.
+This is, primarily, a Greek language spell checking project.
+
+This is based primarily on Hunspell/Aspell that provides the dictionaries and 
+creates LibreOffice extensions.
+
+It also incorporates (at least it aspires to) a Greek thesaurus.
+
+Hopefully it will eventually provide spelling extensions for Mozilla projects also.
  
 This was started as a fork of the LibreGreek GIT project at 
 https://github.com/squibbylinux/LibreGreek. Read the README files there to find 
@@ -15,25 +21,25 @@ files. Nontheless it was almost 3 years old and not maintained.
 
 The objectives here are:
 1. to *further* develop the Greek support for Hunspell in a more systematic way.
-2. to collect the best support material for the Greek language that the Greek 
-   FOSS community has produced so far for Libre Office into a single project 
-   and make it easier to find and maintain
+2. to collect, in a single project, the best support material for the Greek 
+   language that the Greek FOSS community has produced so far for Libre Office 
+   into a single project and make it easier to find and maintain
 3. to maintain a, hopefully, standard Greek wordlist similar to the efforts made
    by other projects
 4. to enhance the Greek dictionary with aff rules to make it easier to maintain
-5. to eventually incorparate Grammar rules and grammar checking
+5. to eventually incorparate grammar rules and grammar checking
 6. to develop/enhance a Greek thesaurus
 7. To influence software development to incorporate features that suit the Greek 
    language
 
-This is not hosted anywhere currently. To contact me send email to andreas@kasenides.org
+To contact me send email to andreas@kasenides.org
 See also the README.Changes files.
 ===============================================================================
 
 To install in LibreOffice
 ----------------------
 The only file you need is orthosgreek-<version>.oxt
-Install by using the Extensions manager
+Install by using the Extensions manager.
 
 ===============================================================================
 
@@ -51,25 +57,24 @@ installed by the extensions manager of LibreOffice:
 1. orthosgreek-el_GR-<ver>.oxt
 2. orthosgreek-el_GR-en_US-<ver>.oxt
 
-The first one is a purely Greek dictionary.
+The first one is a purely Greek dictionary for those that do not need English.
 The second one is a combination of Greek/English dictionary.
 
-Versions markes with a Greek α should be considered experimental.
+Versions marked with a Greek α should be considered experimental.
 
 Note: That there are some parts in the file structure that are not currently 
-used and can be ingored.
+used and can be ingored. These will eventaully be used or cleaned.
 ================================================================================
 DICTIONARIES
 
 Greek Dictionary
 --------------------
-There are currently 828806 word in the dictionary but these include entries for
+There are currently 828806 words in the dictionary but these include entries for
 all the forms of the same word as produced by the Greek grammar rules. For exammple
 the following are entered individually as different words:  ζητώ, ζητάς ... ζήτησα 
 κλπ. κλπ. αναζητώ, αναζητάς κλπ κλπ. This approach is necesary to have a working 
 dictionary at this stage. It is expected that this number will shrink considerably 
 when a proper aff file is composed.
-
 
 English Dictionaries
 --------------------
@@ -81,7 +86,7 @@ Currently I only use American English dictionaries (en_US).
 How you can help
 --------------------
 By far the most time consumiung activity is to maintain a proper word list to 
-be used by the dictionary. A word that is nto in the dictionary cannot be spelled
+be used by the dictionary. A word that is not in the dictionary cannot be spelled
 checked. Please submit a bug report with any words you find we are missing.
 
 Also anyone with professional language skills can prove invaluable for this project.
