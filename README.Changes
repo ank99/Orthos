@@ -37,3 +37,4 @@ Version 0.2.α
 - changes in README files for better reading
 - changes in the el_GR.aff for better suggestions (KEY and REP entries)
 - added a Greek thesaurus from openthesaurus.gr under directory thesaurus/. This still in alpha. 
+- addess REP's for άι αί, έι εί, όι οί in aff to correct for ex. τελευτάιος
