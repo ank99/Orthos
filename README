@@ -65,7 +65,13 @@ Versions marked with a Greek α should be considered experimental.
 Note: That there are some parts in the file structure that are not currently 
 used and can be ingored. These will eventaully be used or cleaned.
 ================================================================================
-DICTIONARIES
+WORD LISTS AND DICTIONARIES
+
+Word Lists
+--------------------
+Word lists are just that - lists that include every possible word in all its forms.
+There are no flags in the word lists. Word lists are processed by much to ceate 
+dictionaries.
 
 Greek Dictionary
 --------------------
@@ -97,7 +103,7 @@ See also.
 ---------
 A list of important previous work for Greek spelling and related material
 -------------------------------------------------------------------------
-1. http://hunspell.github.io/
+1. http://hunspell.github.io/  (also older https://sourceforge.net/projects/hunspell/)
 2. https://github.com/squibbylinux/LibreGreek
 3. 
 
