@@ -1,1 +1,0 @@
-Support for the Greek Language in Libre Office. Includes spell checking dictionaries. Planned support for hyphenation patterns, thesaurus and translated templates.
