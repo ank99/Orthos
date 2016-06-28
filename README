@@ -70,11 +70,19 @@ WORD LISTS AND DICTIONARIES
 Word Lists
 --------------------
 Word lists are just that - lists that include every possible word in all its forms.
-There are no flags in the word lists. Word lists are processed by much to ceate 
+There are no flags in the word lists. Word lists are processed by munch to create 
 dictionaries.
+
+el_GR.wl is the Greek word list
+
+en_US.wl is the US English word list. It is created from the SCOWL word lists 
+         (http://wordlist.aspell.net/) by using the command
+         "mk-list american 60" which includes more than 122000 common words
 
 Greek Dictionary
 --------------------
+The Greek dictionary is made from the original word list that was carried over from 
+the original project (see above).
 There are currently 828806 words in the dictionary but these include entries for
 all the forms of the same word as produced by the Greek grammar rules. For exammple
 the following are entered individually as different words:  ζητώ, ζητάς ... ζήτησα 
@@ -82,10 +90,11 @@ the following are entered individually as different words:  ζητώ, ζητάς
 dictionary at this stage. It is expected that this number will shrink considerably 
 when a proper aff file is composed.
 
-English Dictionaries
---------------------
-The English dictionaries come from http://wordlist.aspell.net/.
-Currently I only use American English dictionaries (en_US).
+Greek-English Dictionary
+------------------------
+The Greek-English dictionary is prepared from the el_GR and en_US word lists and it is a
+convenient alternative to the Greek dictionary for those that use regularly both languages
+in the same document. 
 
 ================================================================================
 
