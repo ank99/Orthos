@@ -1,11 +1,12 @@
-Orthos - LibreOffice Greek support package.
+Orthos - LibreOffice Greek/English support package.
 
 Combined Support for the Greek and English Language in LibreOffice. 
 Includes a combination spell check dictionary of Greek and English (en_US).
 Planned support for hyphenation patterns, thesaurus and translated templates.
-
+-----
 Ορθός - Πακέττο επέκτασης του LibreOffice για Ελληνικά και Αγγλικά.
 
-Υποστήριξη της Ελληνικής γλώσσας στο Libreoffice.
-Περιέχει ενοποιημένο ορθογραφικό λεξικό Ελληνικών και Αγγλικών λέξεων.
+Υποστήριξη της Ελληνικής και Αγγλικής γλώσσας στο Libreoffice.
+Περιέχει ενοποιημένο ορθογραφικό λεξικό Ελληνικών και Αγγλικών λέξεων (en_US).
+
 
