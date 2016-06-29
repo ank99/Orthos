@@ -8,8 +8,8 @@
   <platform value="all" />
   
   <display-name>
-    <name lang="en-US">Support for Greek Language</name>
-    <name lang="el-GR">Υποστήριξη για την ελληνική γλώσσα</name>
+    <name lang="en-US">Combined Support of Greek and English Languages for multilingual spelling</name>
+    <name lang="el-GR">Συνδιασμένη υποστήριξη για την ελληνική και αγγλική γλώσσα</name>
   </display-name>
    <icon>
         <default xlink:href="gr.ico" />

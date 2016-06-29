@@ -77,7 +77,7 @@ el_GR.wl is the Greek word list
 
 en_US.wl is the US English word list. It is created from the SCOWL word lists 
          (http://wordlist.aspell.net/) by using the command
-         "mk-list american 60" which includes more than 122000 common words
+         "mk-list -v2 american 70" which includes more than 160000 common words
 
 Greek Dictionary
 --------------------

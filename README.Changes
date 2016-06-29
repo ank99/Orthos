@@ -38,5 +38,7 @@ Version 0.2.α
 - changes in the el_GR.aff for better suggestions (KEY and REP entries)
 - added a Greek thesaurus from openthesaurus.gr under directory thesaurus/. This still in alpha. 
 - added REP's for άι αί, έι εί, όι οί in aff to correct for ex. τελευτάιος
-- ISSUE: Noticed that the combined dictionary (el_GR-en_US) does not install properly
-- ISSUE: Combining el_GR and en_US without adjusting aff will not work since there are overlaps of rules in the aff's
+- ISSUE: Noticed that the combined dictionary (el_GR-en_US) does not install properly - Fixed by redoing the 
+	whole process that created dictionary. See next issues also.
+- ISSUE: Combining el_GR and en_US without adjusting aff will not work since there are overlaps of rules in the aff's.
+	For now only the English aff is used inthe combined dictionary.
