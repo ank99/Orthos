@@ -1,4 +1,4 @@
-VER=0.2α
+VER=0.3
 date = $(shell date +%d-%m-%Y)
 
 all: orthosgreek-el_GR-$(VER).oxt orthosgreek-el_GR-en_US-$(VER).oxt
