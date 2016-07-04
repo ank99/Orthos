@@ -6,7 +6,7 @@ for LibreOffice and OpenOffice. See the README file for more details.
 
 To install in LibreOffice or OpenOffice just get one of the files 
 
-orthosgreek-el_GR-(version).oxt - Greek dictionary
+orthosgreek-el_GR-(version).oxt - Greek dictionary<BR>
 orthosgreek-el_GR-en_US-(version).oxt - Greek/English dictionary 
 
 and install using the extensions manager. It is best to get these files from the latest release
