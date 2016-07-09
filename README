@@ -2,7 +2,7 @@ Project Orthos - Greek Spell checking
 =========================================================================================================
 This is, primarily, a Greek language spell checking project.
 
-This is based primarily on Hunspell/Aspell that provides the dictionaries and 
+This is based primarily on Hunspell/Aspell, provides the dictionaries and 
 creates LibreOffice extensions.
 
 It also incorporates (at least it aspires to) a Greek thesaurus.
@@ -61,6 +61,14 @@ The first one is a purely Greek dictionary for those that do not need English.
 The second one is a combination of Greek/English dictionary.
 
 Versions marked with a Greek α should be considered experimental.
+
+Directory structure
+------------------------------------
+- orthosgreek 	- the extesions staging area. In here we build the file structure of 
+		  the extensions from which the extensions are created
+- dicts		- the place where the dictionaries are built
+- thesaurus	- a place where the thesaurus is built
+
 
 Note: That there are some parts in the file structure that are not currently 
 used and can be ingored. These will eventaully be used or cleaned.
